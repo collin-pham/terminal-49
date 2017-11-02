@@ -2,28 +2,28 @@
 
 ## Quick Start
 
-Cloned the Terminal49 repo from github:
+Clone the Terminal49 repo from github: `git clone git@github.com:collin-pham/terminal-49.git`
 
 cd into the repo and run `npm install` to install the necessary node packages
 
 run `npm run start`
 
 
-##File Structure
+## File Structure
 
 ### src
  The source directory holds the entire React App
 
-####assets
+#### assets
   Hold the Apps assets
 
-####components
+#### components
   Global components for reuse
 
-####routes
+#### routes
   Because this is a one-page app, we are using react-router for frontend routing. We define this routes in the routes directory.
 
-####scenes
+#### scenes
   Scenes contains each page of our application
 
 
