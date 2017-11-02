@@ -1,0 +1,69 @@
+.container {
+  margin: auto;
+}
+.searchbar {
+  text-align: center;
+  margin: auto;
+  height: 100%;
+  overflow: hidden;
+}
+input {
+  box-sizing: border-box;
+  outline-width: 0;
+  border: 1px solid gray;
+  width: 90%;
+  margin: 0% 5%;
+  height: 60px;
+  line-height: 60px;
+  padding: 0px;
+  border-radius: 10px
+}
+
+input:focus {
+  border: 1px solid #25CF6C;
+  border-radius: 10px
+}
+.bookingNumber {
+  width: 40%;
+  float: left;
+}
+.steamshipLine {
+  width: 40%;
+  float: left;
+}
+.search {
+  width: 20%;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  cursor: pointer;
+  color: white;
+  background-color: white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+}
+.search:hover {
+  opacity: 0.9;
+}
+.search img {
+  height: 60px;
+  line-height: 60px;
+  -ms-transform: .8s ease-in-out;
+  -webkit-transition: .8s ease-in-out;
+  transition: .8s ease-in-out;
+}
+
+.search:hover img {
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+}
+
+h6 {
+  font-size: 14px !important;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-weight: 200;
+}

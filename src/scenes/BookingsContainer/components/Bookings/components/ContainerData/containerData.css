@@ -1,0 +1,27 @@
+.containerTitle {
+  color: white;
+  font-size: 20px;
+  font-weight: 200;
+  clear: both;
+}
+
+.containerData {
+  color: white;
+  clear: both;
+}
+
+.containers {
+  width: 90%;
+  background-color: #25CF6C;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin: auto;
+  margin-top: 10px;
+  clear: both;
+  overflow: hidden;
+}
+.containerNumber, .containerSizeAndType {
+  width: 50%;
+  margin: auto;
+  float: left;
+}

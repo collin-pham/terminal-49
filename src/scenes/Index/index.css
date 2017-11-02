@@ -1,0 +1,31 @@
+.indexContainer {
+  
+}
+.searchbarContainer {
+  margin-top: 20px;
+}
+
+.indexImageContainer {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -9999;
+}
+.indexImage {
+  position: relative;
+  top: -50%;
+}
+.index {
+  position: relative;
+  top: 100px;
+  background: black;
+  background: rgba(54, 25, 25, .65);
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 600px;
+  margin: auto;
+}
+h3 {
+  color: white;
+}
