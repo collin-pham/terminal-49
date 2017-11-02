@@ -14,7 +14,7 @@ const routes = (
   <Route path='/' component={Layout}>
     <IndexRoute component={Index}/>
     <Route path='/bookings' component = {BookingsContainer}>
-      <Route path='/bookings/:bookingID' component={Bookings}/>
+      <Route path='/bookings/:bookingNumber' component={Bookings}/>
     </Route>
     <Route path='*' component={InvalidRoute}/>
   </Route>

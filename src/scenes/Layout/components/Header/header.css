@@ -6,11 +6,6 @@ header {
   background: white;
   z-index: 9999;
 }
-header .headerTitle {
-  float: left;
-  font-size: 24px;
-  line-height: 60px; 
-}
 header a {
   color: black
 }
@@ -21,4 +16,10 @@ header img {
   height: 60px;
   float: left;
 }
+header .headerTitle {
+  float: left;
+  font-size: 24px;
+  line-height: 60px; 
+}
+
 

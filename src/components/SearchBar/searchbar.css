@@ -1,12 +1,3 @@
-.container {
-  margin: auto;
-}
-.searchbar {
-  text-align: center;
-  margin: auto;
-  height: 100%;
-  overflow: hidden;
-}
 input {
   box-sizing: border-box;
   outline-width: 0;
@@ -22,6 +13,17 @@ input {
 input:focus {
   border: 1px solid #25CF6C;
   border-radius: 10px
+}
+
+
+.container {
+  margin: auto;
+}
+.searchbar {
+  text-align: center;
+  margin: auto;
+  height: 100%;
+  overflow: hidden;
 }
 .bookingNumber {
   width: 40%;
@@ -41,6 +43,7 @@ input:focus {
   background-color: white;
   border-radius: 10px;
   box-sizing: border-box;
+  outline-width: 0;
   border: 1px solid gray;
 }
 .search:hover {
@@ -55,8 +58,8 @@ input:focus {
 }
 
 .search:hover img {
-  -ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  -ms-transform: rotate(90deg); 
+  -webkit-transform: rotate(90deg); 
   transform: rotate(90deg);
 }
 
@@ -66,4 +69,9 @@ h6 {
   margin: 0;
   text-align: left;
   font-weight: 200;
+}
+.searchError {
+  color: red;
+  font-size: 14px;
+  text-align: left;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
+
+// Display this on invalid route
 export default class InvalidRoute extends React.Component {
   render() {
     return(

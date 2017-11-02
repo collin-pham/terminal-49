@@ -1,9 +1,6 @@
 import React from 'react'
 import './bookingData.css'
 export default class BookingData extends React.Component {
-  constructor(props) {
-    super(props)
-  }
   render() {
     return (
       <div className = 'bookingData'>

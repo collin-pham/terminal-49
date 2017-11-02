@@ -8,7 +8,7 @@ export default class Index extends React.Component {
     return (
       <div className='indexContainer'>
         <div className='indexImageContainer'>
-          <img className='indexImage' src='http://shipmanagementinternational.com/wp-content/uploads/2014/12/Khalifa-Port-Container-Terminal.jpg'></img>
+          <img className='indexImage' src='http://shipmanagementinternational.com/wp-content/uploads/2014/12/Khalifa-Port-Container-Terminal.jpg' alt='background'></img>
         </div>
         <div className='index'>
           <h3> Search and Track Containers Instantly</h3>

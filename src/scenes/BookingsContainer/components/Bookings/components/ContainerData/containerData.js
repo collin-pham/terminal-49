@@ -2,11 +2,6 @@ import React from 'react'
 import './containerData.css'
 
 export default class ContainerData extends React.Component {
-  constructor(props) {
-    super(props)
-    // this.state = {containerNumber: Object.keys(this.props)[0]}
-  }
-
   render() {
     return (
       <div className='containers'>

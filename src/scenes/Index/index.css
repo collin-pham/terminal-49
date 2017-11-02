@@ -1,20 +1,5 @@
-.indexContainer {
-  
-}
-.searchbarContainer {
-  margin-top: 20px;
-}
-
-.indexImageContainer {
-  height: 100%;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  z-index: -9999;
-}
-.indexImage {
-  position: relative;
-  top: -50%;
+h3 {
+  color: white;
 }
 .index {
   position: relative;
@@ -26,10 +11,20 @@
   width: 600px;
   margin: auto;
 }
-h3 {
-  color: white;
+.indexImage {
+  position: relative;
+  top: -50%;
 }
-
+.searchbarContainer {
+  margin-top: 20px;
+}
+.indexImageContainer {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: -9999;
+}
 @media(max-width: 900px) {
   h3 {
     font-size: 30px;
