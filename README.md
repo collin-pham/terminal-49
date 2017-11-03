@@ -21,9 +21,9 @@ run `npm run start`
   Global components for reuse
 
 #### routes
-  Because this is a one-page app, we are using react-router for frontend routing. We define this routes in the routes directory.
+  Because this is a one-page app, we are using react-router for frontend routing. We define these routes in the routes directory.
 
 #### scenes
-  Scenes contains each page of our application
+  Scenes contain each page of our application
 
 
